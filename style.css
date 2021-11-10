@@ -1,0 +1,36 @@
+img{
+    border-radius: 20%
+  }
+h2 {
+    color: #a51cdb ;
+    position : relative;
+    bottom: 1px;
+    left: 460px;
+  }
+p{
+    color: peru
+}
+body>p {
+    background-color: lightcoral;
+  }
+ul{
+    background-color: lightcoral;
+    color: peru
+}
+table{
+    color: #a51cdb
+    background-color: lightcoral;
+}
+a:visited {
+	color: rgb(56, 11, 180);
+}
+div em {
+	color:rgb(226, 178, 194);
+}
+input{
+    border-color:  royalblue
+    border-width: 2px;
+  }
+fieldset{
+    background-color: lightcoral;
+}
