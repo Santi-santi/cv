@@ -1,76 +1,987 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Biodata pribadi</title>
-    <style>
-        body {
-            background-color: lightcoral;
-        }
-    </style>
-     <link rel="stylesheet" type="text/css" href=style.css" />
-</head>
-<body>
-    <h2>Biodata pribadi <i>SANTI</i></h2>
-    <hr>
-    <h3 style="color: rgb(120, 87, 0.5);(120, 74, 165)">hay semuanya!!!</h3>
-    <p>
-        ijinkan saya untuk memperkenalkan diri saya <br>
-        <img src="" width="20%"> <br>
-        Nama    : SANTI <br>
-        Jenis
-        Kelamin : Perempuan <br>
-        Jurusan : Pendidikan <br>
-        TTL     : mamuju 19 Desember 1997 <br>
-        Umur    :23 thn <br>
-        Alamat  :jln,Puncak mamuju blok 5 no 9 <br>
-        Hobi    : <ul>
-                  <li>Olaraga</li>
-                  <li>Menyanyi</li>
-                  <li>Membaca buku</li>
-                  </ul><br>
-        </p>
-        <table>
-            <tr>
-              <th>Pendidikan</th>
-            </tr>
-            <tr>
-              <td> TK </td>
-              <td> Tk Pelita mamuju</td>
-            <tr>
-            </tr>
-                <td> SD </td>
-                <td>SD mamuju negeri mamaju</td>
-             <tr>
-             </tr>
-                <td> SMP</td>
-                <p> SMP Negeri 4 Mamuju</p>
-             <tr>
-             </td>
-                <td> SMA </td>
-                <td> SMA Negeri 2 mamuju</td>
-             </tr>
-             </table>
-          
-           <p>pada waktu saya SMA saya sering mengikuti kegiatan Paskibraka dan ketika saya masuk kuliah saya mengikuti paduan saura di jurusan saya sendiri</p>
-          <fieldset>
-              <legend>Apa yang anda tanyakan kepada saya</legend>
-              <label Untuk="nama">nama: </label>
-              <input type="teks" nama="nama" ?><br>
-              <label> Jenis kelamin:</label>
-              <label><input type="radio"name="jenis_kelamin"value="laki-laki"/>laki-laki</label>
-              <label><input type="radio"name="jenis_kelamin"value="perempuan"/>Perempuan</label><br>
-              <label buat="alamat">Alamat: </label>
-              <input type="text" nama="Alamat"/><br>
-              <label> jika ada pertanyaan silahkan berkomentar</label><br>
-              <textarea rows="10" cols="50" placeholder="silahkan tulis di sini"></textarea><br>
-              <label for="email"> Email anda: </label>
-              <input type="email" nama="email" /><br><br>
-              <button>Kirim</button>
-          </fieldset>
- </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="/styles.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css"
+        />
+        <title>Olshop</title>
+    </head>
+    <body class="d-flex flex-column justify-content-center">
+        <div class="hero-inner bg-secondary m-5 p-4">
+            <div>
+                <div
+                    class="
+                        d-flex
+                        justify-content-center
+                        align-items-center
+                        hero-inside
+                        w-100
+                        p-4
+                    "
+                >
+                    <img
+                        src="./images/img1.png"
+                        alt=""
+                        class="img-fluid"
+                        width="500px"
+                    />
+                </div>
+                <div
+                    class="
+                        d-flex
+                        justify-content-evenly
+                        align-items-center
+                        flex-wrap flex-md-nowrap
+                        bg-light
+                        p-5
+                    "
+                >
+                    <img
+                        src="./images/img2.png"
+                        alt=""
+                        class="img-fluid d-none d-xxl-block"
+                        width="500px"
+                    />
+                    <h1 class="hero-text">
+                        Happy <br />
+                        Shopping
+                    </h1>
+                    <img
+                        src="./images/img2.png"
+                        alt=""
+                        class="img-fluid d-none d-xxl-block"
+                        width="500px"
+                    />
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <nav
+                class="navbar navbar-expand-lg navbar-light fs-3"
+                aria-label="Fifth navbar example"
+            >
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"
+                        ><img src="./images/my GEAR.png" alt="" width="128px"
+                    /></a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarsExample05"
+                        aria-controls="navbarsExample05"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarsExample05">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="#"
+                                    >Home</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">men</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">women</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active">sport</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-danger">sale</a>
+                            </li>
+                        </ul>
+                        <div>
+                            <ul class="navbar-nav me-auto mb-2 mb-lg">
+                                <li class="nav-item">
+                                    <a href="" class="nav-link"
+                                        ><i class="bi bi-box-arrow-in-left"></i
+                                        >Login</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link"
+                                        ><i class="bi bi-cart"></i>Cart</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="container-fluid">
+            <div
+                id="carouselExampleDark"
+                class="carousel carousel-dark slide"
+                data-bs-ride="carousel"
+            >
+                <div class="carousel-indicators">
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleDark"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                    ></button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleDark"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                    ></button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleDark"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                    ></button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleDark"
+                        data-bs-slide-to="3"
+                        aria-label="Slide 4"
+                    ></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img
+                            src="./images/carousel.png"
+                            class="d-block w-100"
+                            alt="..."
+                        />
+                        <div class="carousel-caption d-none d-md-block">
+                            <button class="btn btn-light text-secondary">
+                                view more
+                            </button>
+                            <p>Exercising more and more wearing sports shoes</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img
+                            src="./images/carousel.png"
+                            class="d-block w-100"
+                            alt="..."
+                        />
+                        <div class="carousel-caption d-none d-md-block">
+                            <button class="btn btn-light text-secondary">
+                                view more
+                            </button>
+                            <p>Exercising more and more wearing sports shoes</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img
+                            src="./images/carousel.png"
+                            class="d-block w-100"
+                            alt="..."
+                        />
+                        <div class="carousel-caption d-none d-md-block">
+                            <button class="btn btn-light text-secondary">
+                                view more
+                            </button>
+                            <p>Exercising more and more wearing sports shoes</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img
+                            src="./images/carousel.png"
+                            class="d-block w-100"
+                            alt="..."
+                        />
+                        <div class="carousel-caption d-none d-md-block">
+                            <button class="btn btn-light text-secondary">
+                                view more
+                            </button>
+                            <p>Exercising more and more wearing sports shoes</p>
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div
+            class="
+                container
+                d-flex
+                justify-content-center
+                flex-wrap
+                align-items-center
+            "
+        >
+            <div class="card m-5" style="width: 35rem">
+                <img
+                    src="./images/Group 3.png"
+                    class="card-img-top"
+                    alt="..."
+                />
+                <div
+                    class="
+                        card-img-overlay
+                        d-flex
+                        flex-column
+                        justify-content-between
+                        align-items-baseline
+                    "
+                >
+                    <div>
+                        <h5 class="card-title">
+                            ENERGETICS NEORONE <b>DUMBEL PAIR</b>
+                        </h5>
+                    </div>
+                    <a href="#" class="btn btn-light text-black">view more</a>
+                </div>
+            </div>
+            <div class="card" style="width: 35rem">
+                <img
+                    src="./images/Group 4.png"
+                    class="card-img-top"
+                    alt="..."
+                />
+                <div
+                    class="
+                        card-img-overlay
+                        d-flex
+                        flex-column
+                        justify-content-between
+                        align-items-baseline
+                    "
+                >
+                    <div>
+                        <h5 class="card-title">
+                            Women's trending clothes women's trending clothes
+                            sportswear
+                        </h5>
+                    </div>
+                    <a href="#" class="btn btn-light text-black align-self-end"
+                        >view more</a
+                    >
+                </div>
+            </div>
+        </div>
+        <h1 class="container-fluid my-3">ALL PRODUCTS</h1>
+        <div class="container-fluid d-flex flex-wrap justify-content-center">
+            <div class="card m-2" style="width: 28rem">
+                <img
+                    src="./images/Group 5.png"
+                    class="card-img-top"
+                    alt="..."
+                />
+                <div
+                    class="
+                        card-text
+                        d-flex
+                        flex-column
+                        justify-content-between
+                        align-items-baseline
+                        p-3
+                    "
+                >
+                    <div>
+                        <p class="card-text">
+                            ENERHETICS SPEED RODE - BLUE BLACK <br />W DP 2359
+                        </p>
+                    </div>
+                    <a
+                        href="#"
+                        class="btn btn-light text-black align-self-baseline"
+                        >RP 125.000</a
+                    >
+                </div>
+            </div>
+            <div class="card m-2" style="width: 28rem">
+                <img
+                    src="./images/Group 6.png"
+                    class="card-img-top"
+                    alt="..."
+                />
+                <div
+                    class="
+                        card-text
+                        d-flex
+                        flex-column
+                        justify-content-between
+                        align-items-baseline
+                        p-3
+                    "
+                >
+                    <div>
+                        <p class="card-text">
+                            PPT SUPERBAND HEAVY - YELLOW BLACK
+                        </p>
+                    </div>
+                    <a
+                        href="#"
+                        class="btn btn-light text-black align-self-baseline"
+                        >RP 200.000</a
+                    >
+                </div>
+            </div>
+            <div class="card m-2" style="width: 28rem">
+                <img
+                    src="./images/Group 7.png"
+                    class="card-img-top"
+                    alt="..."
+                />
+                <div
+                    class="
+                        card-text
+                        d-flex
+                        flex-column
+                        justify-content-between
+                        align-items-baseline
+                        p-3
+                    "
+                >
+                    <div>
+                        <p class="card-text">PTP TRACK BALL SOFT - LIME</p>
+                    </div>
+                    <a
+                        href="#"
+                        class="btn btn-light text-black align-self-baseline"
+                        >RP 220.000</a
+                    >
+                </div>
+            </div>
+            <div class="card m-2" style="width: 28rem">
+                <img
+                    src="./images/Group 8.png"
+                    class="card-img-top"
+                    alt="..."
+                />
+                <div
+                    class="
+                        card-text
+                        d-flex
+                        flex-column
+                        justify-content-between
+                        align-items-baseline
+                        p-3
+                    "
+                >
+                    <div>
+                        <p class="card-text">PPT MEDIBAND ULTRA LIGHT</p>
+                    </div>
+                    <a
+                        href="#"
+                        class="btn btn-light text-black align-self-baseline"
+                        >RP 330.000</a
+                    >
+                </div>
+            </div>
+            <div class="card m-2" style="width: 28rem">
+                <img
+                    src="./images/Group 9.png"
+                    class="card-img-top"
+                    alt="..."
+                />
+                <div
+                    class="
+                        card-text
+                        d-flex
+                        flex-column
+                        justify-content-between
+                        align-items-baseline
+                        p-3
+                    "
+                >
+                    <div>
+                        <p class="card-text">
+                            ADIDAS ESSENTIALS LINEAR SLIM TANK T-SHIRT W DP2359
+                        </p>
+                    </div>
+                    <a
+                        href="#"
+                        class="btn btn-light text-black align-self-baseline"
+                        >RP 400.000</a
+                    >
+                </div>
+            </div>
+            <div class="card m-2" style="width: 28rem">
+                <img
+                    src="./images/Group 10.png"
+                    class="card-img-top"
+                    alt="..."
+                />
+                <div
+                    class="
+                        card-text
+                        d-flex
+                        flex-column
+                        justify-content-between
+                        align-items-baseline
+                        p-3
+                    "
+                >
+                    <div>
+                        <p class="card-text">adidas ESSENTIALS LINEAR PANTS</p>
+                    </div>
+                    <a
+                        href="#"
+                        class="btn btn-light text-black align-self-baseline"
+                        >RP 450.000</a
+                    >
+                </div>
+            </div>
+            <div class="card m-2" style="width: 28rem">
+                <img
+                    src="./images/Group 11.png"
+                    class="card-img-top"
+                    alt="..."
+                />
+                <div
+                    class="
+                        card-text
+                        d-flex
+                        flex-column
+                        justify-content-between
+                        align-items-baseline
+                        p-3
+                    "
+                >
+                    <div>
+                        <p class="card-text">
+                            Reebok Training Essentials Linear Logo Windbreaker
+                            Hoodie Jacket
+                        </p>
+                    </div>
+                    <a
+                        href="#"
+                        class="btn btn-light text-black align-self-baseline"
+                        >RP 500.000</a
+                    >
+                </div>
+            </div>
+            <div class="card m-2" style="width: 28rem">
+                <img
+                    src="./images/Group 8.png"
+                    class="card-img-top"
+                    alt="..."
+                />
+                <div
+                    class="
+                        card-text
+                        d-flex
+                        flex-column
+                        justify-content-between
+                        align-items-baseline
+                        p-3
+                    "
+                >
+                    <div>
+                        <p class="card-text">
+                            Reebok TRAINING ESSENTIALS VECTOR
+                        </p>
+                    </div>
+                    <a
+                        href="#"
+                        class="btn btn-light text-black align-self-baseline"
+                        >RP 550.000</a
+                    >
+                </div>
+            </div>
+        </div>
+        <div
+            class="
+                container-fluid
+                d-flex
+                justify-content-center
+                align-items-center
+                mt-3
+            "
+        >
+            <hr class="w-25" />
+            <div class="bg-secondary p-3">
+                <h1 class="shop-now bg-light p-3 fw-bold">SHOP NOW</h1>
+            </div>
+            <hr class="w-25" />
+        </div>
+        <div
+            class="
+                container
+                d-flex
+                justify-content-between
+                shop-now-hero
+                mt-3
+                p-5
+            "
+        >
+            <div
+                class="
+                    d-flex
+                    flex-column
+                    align-items-baseline
+                    justify-content-between
+                    w-100
+                "
+            >
+                <h1>
+                    Reebok LESMILLS / Les Mills Woven Tracktop Jacket Blue White
+                    LM - M
+                </h1>
+                <button class="btn btn-light text-secondary">VIEW MORE</button>
+            </div>
+            <div>
+                <img
+                    src="./images/images (24) 1.png"
+                    width="500px"
+                    class="img-fluid"
+                    alt=""
+                />
+            </div>
+        </div>
+        <div
+            class="
+                container
+                d-flex
+                justify-content-center
+                flex-wrap flex-lg-nowrap
+                mt-5
+            "
+        >
+            <div class="d-flex flex-column align-items-baseline">
+                <h1><b>MEN</b></h1>
+                <p class="my-5">
+                    loren more isun dolor sit amet, comsectetur adispicing elit
+                </p>
+                <button class="btn btn-light text-secondary">SHOP NOW</button>
+            </div>
+            <div class="card m-2" style="width: 28rem">
+                <img
+                    src="./images/Group 13.png"
+                    class="card-img-top"
+                    alt="..."
+                />
+                <div
+                    class="
+                        card-text
+                        d-flex
+                        flex-column
+                        justify-content-between
+                        align-items-baseline
+                        p-3
+                    "
+                >
+                    <div>
+                        <p class="card-text">
+                            REEBOK ADVANCED TRAINETTE WOMEN's TRAINING SHOES -
+                            Black
+                        </p>
+                    </div>
+                    <a
+                        href="#"
+                        class="btn btn-light text-black align-self-baseline"
+                        >RP 600.000</a
+                    >
+                </div>
+            </div>
+            <div class="card m-2" style="width: 28rem">
+                <img
+                    src="./images/Group 14.png"
+                    class="card-img-top"
+                    alt="..."
+                />
+                <div
+                    class="
+                        card-text
+                        d-flex
+                        flex-column
+                        justify-content-between
+                        align-items-baseline
+                        p-3
+                    "
+                >
+                    <div>
+                        <p class="card-text">
+                            Reebok Repeat Bike Set ( 3Pc ) C44128RG-001
+                        </p>
+                    </div>
+                    <a
+                        href="#"
+                        class="btn btn-light text-black align-self-baseline"
+                        >RP 700.000</a
+                    >
+                </div>
+            </div>
+            <div class="card m-2" style="width: 28rem">
+                <img
+                    src="./images/Group 15.png"
+                    class="card-img-top"
+                    alt="..."
+                />
+                <div
+                    class="
+                        card-text
+                        d-flex
+                        flex-column
+                        justify-content-between
+                        align-items-baseline
+                        p-3
+                    "
+                >
+                    <div>
+                        <p class="card-text">Ali-Sneakers Store</p>
+                    </div>
+                    <a
+                        href="#"
+                        class="btn btn-light text-black align-self-baseline"
+                        >RP 900.000</a
+                    >
+                </div>
+            </div>
+        </div>
+        <div
+            class="
+                container
+                d-flex
+                justify-content-center
+                flex-wrap flex-lg-nowrap
+                mt-5
+            "
+        >
+            <div class="d-flex flex-column align-items-baseline">
+                <h1><b>WOMEN</b></h1>
+                <p class="my-5">
+                    oren more isun dolor sit amet,comsectetur adispicing elit
+                </p>
+                <button class="btn btn-light text-secondary">SHOP NOW</button>
+            </div>
+            <div class="card m-2" style="width: 28rem">
+                <img
+                    src="./images/Group 16.png"
+                    class="card-img-top"
+                    alt="..."
+                />
+                <div
+                    class="
+                        card-text
+                        d-flex
+                        flex-column
+                        justify-content-between
+                        align-items-baseline
+                        p-3
+                    "
+                >
+                    <div>
+                        <p class="card-text">
+                            Boys Joggers Training Pants Boys Joggers Boys
+                        </p>
+                    </div>
+                    <a
+                        href="#"
+                        class="btn btn-light text-black align-self-baseline"
+                        >RP 600.000</a
+                    >
+                </div>
+            </div>
+            <div class="card m-2" style="width: 28rem">
+                <img
+                    src="./images/Group 19.png"
+                    class="card-img-top"
+                    alt="..."
+                />
+                <div
+                    class="
+                        card-text
+                        d-flex
+                        flex-column
+                        justify-content-between
+                        align-items-baseline
+                        p-3
+                    "
+                >
+                    <div>
+                        <p class="card-text">
+                            Nike Womens Indy Light Supports Sports
+                        </p>
+                    </div>
+                    <a
+                        href="#"
+                        class="btn btn-light text-black align-self-baseline"
+                        >RP 400.000</a
+                    >
+                </div>
+            </div>
+            <div class="card m-2" style="width: 28rem">
+                <img
+                    src="./images/Group 18.png"
+                    class="card-img-top"
+                    alt="..."
+                />
+                <div
+                    class="
+                        card-text
+                        d-flex
+                        flex-column
+                        justify-content-between
+                        align-items-baseline
+                        p-3
+                    "
+                >
+                    <div>
+                        <p class="card-text">
+                            New Balance Men's 608 Crosstrainer
+                        </p>
+                    </div>
+                    <a
+                        href="#"
+                        class="btn btn-light text-black align-self-baseline"
+                        >RP 500.000</a
+                    >
+                </div>
+            </div>
+        </div>
+        <div
+            class="
+                container
+                d-flex
+                justify-content-between
+                align-items-center
+                flex-wrap flex-lg-nowrap
+                mt-3
+            "
+        >
+            <div
+                class="
+                    d-flex
+                    flex-column
+                    align-items-baseline
+                    justify-content-start
+                "
+            >
+                <div class="green-color p-3 mb-3 w-100">
+                    <img
+                        src="./images/images (34) 1.png"
+                        class="img-fluid"
+                        width="300px"
+                        alt=""
+                    />
+                    <div>
+                        <h3>Pack Essential Relaxed Crew Tee</h3>
+                        <button class="btn btn-light text-dark">
+                            View More
+                        </button>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <img
+                        src="./images/images (35) 1.png"
+                        class="img-fluid"
+                        width="300px"
+                        alt=""
+                    />
+                    <div>
+                        <h3>
+                            Nike Men's Legend 2.0 Training Long Sleeve Shirt
+                        </h3>
+                        <button class="btn btn-light text-dark">
+                            View More
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="
+                    d-flex
+                    flex-column
+                    align-items-baseline
+                    justify-content-start
+                    align-self-baseline
+                    ps-lg-5 ps-0
+                "
+            >
+                <h3>Reebok Workout READY Men's Shorts - Navy, ASIA L</h3>
+                <div class="">
+                    <button class="btn btn-light text-dark">View More</button>
+                    <img
+                        src="./images/images (32) 1.png"
+                        class="img-fluid"
+                        width="300px"
+                        alt=""
+                    />
+                </div>
+            </div>
+        </div>
+        <div
+            class="
+                container
+                d-flex
+                justify-content-center
+                flex-wrap flex-lg-nowrap
+                mt-5
+            "
+        >
+            <div class="d-flex flex-column align-items-baseline">
+                <h1><b>BRAND</b></h1>
+                <p class="my-5">
+                    oren more isun dolor sit amet,comsectetur adispicing elit
+                </p>
+                <button class="btn btn-light text-secondary">SHOP NOW</button>
+            </div>
+            <div class="card m-2" style="width: 28rem">
+                <img
+                    src="./images/Group 20.png"
+                    class="card-img-top"
+                    alt="..."
+                />
+                <div
+                    class="
+                        card-text
+                        d-flex
+                        flex-column
+                        justify-content-center
+                        align-items-center
+                        p-3
+                    "
+                >
+                    <div>
+                        <h1 class="card-text fs-5"><b>NIKE</b></h1>
+                    </div>
+                </div>
+            </div>
+            <div class="card m-2" style="width: 28rem">
+                <img
+                    src="./images/Group 21.png"
+                    class="card-img-top"
+                    alt="..."
+                />
+                <div
+                    class="
+                        card-text
+                        d-flex
+                        flex-column
+                        justify-content-center
+                        align-items-center
+                        p-3
+                    "
+                >
+                    <div>
+                        <h1 class="card-text fs-5"><b>ADIDAS</b></h1>
+                    </div>
+                </div>
+            </div>
+            <div class="card m-2" style="width: 28rem">
+                <img
+                    src="./images/Group 22.png"
+                    class="card-img-top"
+                    alt="..."
+                />
+                <div
+                    class="
+                        card-text
+                        d-flex
+                        flex-column
+                        justify-content-center
+                        align-items-center
+                        p-3
+                    "
+                >
+                    <div>
+                        <h1 class="card-text fs-5"><b>REEBOK</b></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer
+            class="
+                mt-5
+                p-3
+                bg-dark-green
+                d-flex
+                justify-content-between
+                align-items-center
+                flex-wrap flex-md-nowrap
+            "
+        >
+            <div class="d-flex flex-column">
+                <h1 class="fs-6 mb-5"><b> CONTACT US</b></h1>
+                <span class="mb-5"
+                    ><i class="bi bi-telephone-fill"></i> 086484333332</span
+                >
+                <span class="mb-5"
+                    ><i class="bi bi-envelope-fill"></i>
+                    olshop123@gmail.com</span
+                >
+                <img
+                    src="./images/Rectangle 78.png"
+                    width="500px"
+                    class="img-fluid"
+                    alt=""
+                />
+            </div>
+            <div
+                class="
+                    ms-0 ms-lg-5
+                    d-flex
+                    flex-column
+                    justify-content-between
+                    align-items-center
+                "
+            >
+                <img
+                    src="./images/Rectangle 75.png"
+                    width="1000px"
+                    class="img-fluid mb-3"
+                    alt=""
+                />
+                <img
+                    src="./images/Group 23.png"
+                    width="1000px"
+                    class="img-fluid"
+                    alt=""
+                />
+            </div>
+        </footer>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>
-                    
-
-
-
-        
