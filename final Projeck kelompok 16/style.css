@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Biryani:wght@200;300;400;700&display=swap");
+
+* {
+    font-family: "Biryani", sans-serif !important;
+}
+
+.hero-text {
+    font-weight: 700;
+    color: #fcaaaa;
+}
+
+.hero-inside {
+    background-color: #fa9999;
+}
+
+hr {
+    height: 5px !important;
+}
+
+.shop-now-hero {
+    background-color: #daece3;
+}
+
+.green-color {
+    background-color: #cee2be;
+}
+
+.bg-dark-green {
+    background-color: #f5f5f5;
+    font-size: 40px;
+}
+
+.bg-dark-green h1 {
+    color: #4194a6;
+    font-size: 30px !important;
+}
